@@ -59,8 +59,9 @@ class _SignUpScreenState extends State<SignUpScreen> {
       });
 
       //show notice
-      ScaffoldMessenger.of(context)
-          .showSnackBar(SnackBar(content: Text(response)));
+      // ScaffoldMessenger.of(context)
+      //     .showSnackBar(SnackBar(content: Text(response)));
+      showSnackBar(content: resource),
     }
   }
 
